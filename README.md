@@ -41,5 +41,10 @@ Bot: yes, it is
 
 Notice how by the end of the conversation, the chatbot mimics what you were inputting as your responses to create a somewhat coherent converation.
 Hello, hi there, how are you, i'm well, that's good, yes, it is.
+When you want to stop talking to the bot, type "/exit" or "/quit". This will save your session to the textfiles. If you want to exit without save, you'll have to use a keyboard inturrupt (CTRL+C).
 
 Enjoy!
+
+## Changelog
+
+ - v0.1 (Current): Base release.
