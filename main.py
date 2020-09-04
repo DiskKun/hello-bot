@@ -26,13 +26,11 @@ def main():
 			is_in_s = usrinput in statements
 			if is_in_s == True:
 				if usrinput in responses.keys():
-					print("DEBUG: recognized")
 					value = random.choice(responses[usrinput])
 					print("Bot: " + value)
 					current_statement = value
 				else:
 					print("Bot: " + usrinput)
-					print("DEBUG: unrecognized")
 					current_statement = usrinput
 			elif usrinput == "/quit" or usrinput == "/exit":
 				jstatements = json.dumps(statements)
