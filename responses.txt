@@ -1,0 +1,1 @@
+{"hello": ["hi there"], "hi there": ["how are you"], "how are you": ["i'm well", "i'm terrible"], "i'm well": ["that's good", "ok"], "that's good": ["yeah"]}
