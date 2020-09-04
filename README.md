@@ -5,7 +5,7 @@ A VERY simple chatbot that learns from you (sort of).
 ## How to use:
 
 When you run the program, it will ask if you want to load from file. If this is your first time using the program, type "n", and press enter. If you have used the program before, your previous session's statements and responses will be saved in the text files, so type "y" and press enter to load these.
-NOTE: choosing n will overwrite a previous session.
+NOTE: choosing "n" will overwrite a previous session.
 
 Now you are speaking directly with the chatbot. If you want to teach it a response, you need to be persistent. The following is a basic conversation example.
 
@@ -38,3 +38,8 @@ Bot: i'm well
 You: that's good
 Bot: yes, it is
 ```
+
+Notice how by the end of the conversation, the chatbot mimics what you were inputting as your responses to create a somewhat coherent converation.
+Hello, hi there, how are you, i'm well, that's good, yes, it is.
+
+Enjoy!
