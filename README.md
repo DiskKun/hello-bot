@@ -1,6 +1,6 @@
 # hellobot
 
-A VERY simple chatbot that learns from you (sort of).
+A VERY simple chatbot that learns from you (sort of). Written in Python3.
 
 ## How to use:
 
