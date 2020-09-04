@@ -1,1 +1,1 @@
-["hello", "hi there", "how are you", "i'm well", "that's good", "yeah", "ok", "i'm terrible"]
+["hello"]
