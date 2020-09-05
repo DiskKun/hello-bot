@@ -10,7 +10,6 @@ NOTE: choosing "n" will overwrite a previous session.
 Now you are speaking directly with the chatbot. If you want to teach it a response, you need to be persistent. The following is a basic conversation example.
 
 ```
-Bot: hello
 You: hi there
 Bot: hello
 You: hi there
@@ -39,12 +38,13 @@ You: that's good
 Bot: yes, it is
 ```
 
-Notice how by the end of the conversation, the chatbot mimics what you were inputting as your responses to create a somewhat coherent converation.
+Notice how by the end of the conversation, the chatbot mimics what you were inputting as your responses to create a somewhat coherent conversation.
 Hello, hi there, how are you, i'm well, that's good, yes, it is.
-When you want to stop talking to the bot, type "/exit" or "/quit". This will save your session to the textfiles. If you want to exit without save, you'll have to use a keyboard inturrupt (CTRL+C).
+When you want to stop talking to the bot, type "/exit" or "/quit". This will save your session to the textfiles. If you want to exit without save, you'll have to use a keyboard interrupt (CTRL+C).
 
 Enjoy!
 
 ## Changelog
 
- - v0.1 (Current): Base release.
+ - v0.2 (Current): Optimized code.
+ - v0.1: Base release.
