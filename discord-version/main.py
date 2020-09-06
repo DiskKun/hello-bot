@@ -3,15 +3,17 @@ import random
 import json
 import discord
 
-## BOT VARIABLES
-statements = ["hello"]
-responses = {}
-current_statement = "hello"
+## BOT INIT
+with open('statements.txt', 'r+') as file:
+	statements = json.load(file)
+with open('responses.txt', 'r+') as file:
+	responses = json.load(file)
+current_statement = statements[random.randint(0, len(statements)-1)]
 
 TOKEN = '[BOT TOKEN]'
 
 client = discord.Client()
-channel = client.get_channel([CHANNEL TOKEN])
+channel = client.get_channel([CHANNEL ID])
 
 @client.event
 #async def on_join():
@@ -19,7 +21,7 @@ channel = client.get_channel([CHANNEL TOKEN])
 	
 async def on_message(message):
 	global current_statement
-	if message.channel.id == [CHANNEL TOKEN]:
+	if message.channel.id == [CHANNEL ID]:
 		channel = message.channel
 		if message.author == client.user:
 			return
