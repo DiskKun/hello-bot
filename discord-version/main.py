@@ -56,7 +56,12 @@ def saveLoop():
         with open('responses.txt', 'w+') as file:
             
             file.write(jresponses)
-            
+        
+        statements.append(newstatements)
+        responses.update(newresponses)
+        newresponses = {}
+        newstatements = ["hello"]
+        
         await channel.send("Saved responses! You can no longer /remove any recent messages.")
 
 @client.event
