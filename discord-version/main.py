@@ -60,7 +60,7 @@ def saveLoop():
         statements.append(newstatements)
         responses.update(newresponses)
         newresponses = {}
-        newstatements = ["hello"]
+        newstatements = []
         
         await channel.send("Saved responses! You can no longer /remove any recent messages.")
 
