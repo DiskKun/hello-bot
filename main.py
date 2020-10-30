@@ -28,8 +28,8 @@ def main():
 				print("Bot: " + value)
 				current_statement = value
 			else:
-				print("Bot: " + usrinput)
-				current_statement = usrinput
+				current_statement = statements[random.randint(0, len(statements)-1)]
+				print("Bot: " + current_statement)
 		elif usrinput == "/quit" or usrinput == "/exit":
 			jstatements = json.dumps(statements)
 			jresponses = json.dumps(responses)
