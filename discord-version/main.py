@@ -34,8 +34,8 @@ async def on_message(message):
 				await channel.send(value)
 				current_statement = value
 			else:
-				await channel.send(usrinput)
-				current_statement = usrinput
+				current_statement = statements[random.randint(0, len(statements)-1)]
+				await channel.send(current_statement)
 		else:
 			statements.append(usrinput)
 			responses.setdefault(current_statement, [])
